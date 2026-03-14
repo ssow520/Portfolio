@@ -75,7 +75,7 @@ const projects = {
     desc: 'Ce portfolio — design éditorial dark avec typographie Syne, accent jaune-citron, curseur custom, animations scroll reveal et marquee. Entièrement vanilla, zéro framework.',
     stack: ['HTML5', 'CSS3', 'JavaScript', 'Git', 'GitHub Pages'],
     github: 'https://github.com/ssow520/Portfolio',
-    demo: null
+    demo: 'https://ssow520.github.io/Portfolio/'
   },
   quizapp: {
     num: '006',
