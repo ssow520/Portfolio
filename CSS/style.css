@@ -254,10 +254,6 @@ nav.scrolled {
   object-fit: cover;
   border-radius: 16px;
 }
-.placeholder-icon {
-  font-size: 2.5rem;
-  opacity: 0.3;
-}
 
 .hero-bg-text {
   position: absolute;
@@ -479,6 +475,56 @@ nav.scrolled {
 .info-text small { display: block; font-size: 0.72rem; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 2px; }
 .info-text strong { font-size: 0.95rem; font-weight: 500; }
 
+/* ─── CV DOWNLOAD ─────────────────── */
+.cv-section {
+  border-top: 1px solid var(--border);
+}
+.cv-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 48px 56px;
+}
+.cv-headline {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+}
+.cv-headline .accent { color: var(--accent); }
+.cv-body {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--accent);
+  color: #0a0a0a;
+  padding: 16px 32px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.2s, box-shadow 0.2s;
+  flex-shrink: 0;
+}
+.cv-download-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.cv-download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(232,255,71,0.3);
+}
+
 /* ─── FOOTER ─────────────────── */
 footer {
   padding: 40px 60px;
@@ -644,4 +690,9 @@ footer {
   .project-tag, .project-arrow { display: none; }
   footer { flex-direction: column; gap: 12px; text-align: center; }
   .modal { padding: 32px 24px; }
+  .cv-block {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px;
+  }
 }
