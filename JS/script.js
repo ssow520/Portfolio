@@ -42,7 +42,7 @@ const projects = {
     tag: 'C# / SQL Server',
     desc: 'Réseau social académique développé en ASP.NET WebForms. Fonctionnalités : inscription de membres, recherche d\'utilisateurs, validation d\'âge, requêtes SQL paramétrées et layout CSS personnalisé.',
     stack: ['C#', 'ASP.NET WebForms', 'SQL Server', 'HTML', 'CSS'],
-    github: 'https://github.com/ssow520/FriendBook'
+    github: 'https://github.com/ssow520/FriendBook_Aut2025'
   },
   appmobile: {
     num: '002',
@@ -74,7 +74,7 @@ const projects = {
     tag: 'PHP / MySQL',
     desc: 'Application web de quiz multi-utilisateurs développée en PHP avec XAMPP. Deux types de comptes : administrateur (CRUD complet sur les quiz) et utilisateur (participation aux jeux, scores, statistiques et export des résultats en fichier téléchargeable).',
     stack: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript', 'XAMPP'],
-    github: 'https://github.com/ssow520/QuizApp'
+    github: 'https://github.com/ssow520/Quiz_app_Hiver2025'
   },
   portfolio: {
     num: '006',
